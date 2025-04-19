@@ -98,12 +98,12 @@
                 function (d) {
                     if (d.data.isUnion) return;
                     var content = `
-                    <span style='margin-left: 2.5px;'><b>` + d.data.name + `</b></span><br>
-                    <table style="margin-top: 2.5px;">
-                            <tr><td>born</td><td>` + (d.data.birthyear||"?") + ` in ` + (d.data.birthplace||"?") + `</td></tr>
-                            <tr><td>died</td><td>` + (d.data.deathyear||"?") + ` in ` + (d.data.deathplace||"?") + `</td></tr>
-                    </table>
+                    <span style='margin-left: 2.5px;'><b>` + d.data.name + `</b></span><br>                   
                     `
+                    // <table style="margin-top: 2.5px;">
+                    //         <tr><td>born</td><td>` + (d.data.birthyear||"?") + ` in ` + (d.data.birthplace||"?") + `</td></tr>
+                    //         <tr><td>died</td><td>` + (d.data.deathyear||"?") + ` in ` + (d.data.deathplace||"?") + `</td></tr>
+                    // </table>
                     return content.replace(new RegExp("null", "g"), "?")
                 }
             );
