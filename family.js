@@ -1,7 +1,7 @@
 data = {
     "start":"id0",
     "persons": {
-        "id0": { "id": "id1", "name": "பரம்பரை", "own_unions": ["u0"]},
+        "id0": { "id": "id1", "name": "பரன்-பரை (பரம்பரை)", "own_unions": ["u0"]},
         "id1": { "id": "id1", "name": "பரன்", "own_unions": ["u1"], "parent_union": "u0", "birthplace":"Alberta", "deathplace":"Austin"},
         "id2": { "id": "id2", "name": "பரை", "own_unions": ["u1"], "parent_union": "u0", "birthplace":"Berlin", "deathplace":"Bern" },
 
